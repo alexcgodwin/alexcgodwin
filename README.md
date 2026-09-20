@@ -1,5 +1,11 @@
 # Alex C. Godwin
 
+<p>
+  <a href="https://github.com/OpsChugex">
+    <img src="https://avatars.githubusercontent.com/u/327209782?v=4" width="64" alt="OpsChugex Technologies Inc. logo" />
+  </a>
+</p>
+
 ### Cloud DevOps Engineer
 
 AWS · Azure · Kubernetes · Terraform · GitOps CI/CD · SRE & Observability
