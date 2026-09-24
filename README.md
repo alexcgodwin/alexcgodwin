@@ -58,7 +58,7 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 <tr>
 <td align="center"><img src="https://skillicons.dev/icons?i=prometheus" width="46" alt="Prometheus"/><br><sub><b>Prometheus</b></sub></td>
 <td align="center"><img src="https://skillicons.dev/icons?i=grafana" width="46" alt="Grafana"/><br><sub><b>Grafana</b></sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/grafana/F46800" width="46" alt="Loki"/><br><sub><b>Loki</b></sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/grafana/loki/9e2f79fa11e44edea2ec8158c34b2f971ec558eb/docs/sources/logo.png" width="46" alt="Loki"/><br><sub><b>Loki</b></sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/e26e2c05daf8b6bc4c764669fc2be04c314ccb8c/dist/ManagementGovernance/CloudWatch.png" width="46" alt="CloudWatch"/><br><sub><b>CloudWatch</b></sub></td>
 <td align="center"><img src="https://skillicons.dev/icons?i=linux" width="46" alt="Linux"/><br><sub><b>Linux</b></sub></td>
 <td align="center"><img src="https://skillicons.dev/icons?i=nginx" width="46" alt="NGINX"/><br><sub><b>NGINX</b></sub></td>
@@ -75,7 +75,7 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="46" alt="MySQL"/><br><sub><b>MySQL</b></sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/gruntwork-io/terragrunt/85b0fd79d8e56baa4bed9c7b656f21b0a13fe431/docs/src/assets/logo-dark-2.svg" width="46" alt="Terragrunt"/><br><sub><b>Terragrunt</b></sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/e26e2c05daf8b6bc4c764669fc2be04c314ccb8c/dist/ManagementGovernance/CloudFormation.png" width="46" alt="CloudFormation"/><br><sub><b>CloudFormation</b></sub></td>
-<td align="center"><img src="https://skillicons.dev/icons?i=kubernetes" width="46" alt="Kustomize"/><br><sub><b>Kustomize</b></sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/kubernetes-sigs/kustomize/078ab6cf8e87a87a4dea4c81a8c3f4519e97dec5/site/static/favicons/favicon-256.png" width="46" alt="Kustomize"/><br><sub><b>Kustomize</b></sub></td>
 <td align="center"><img src="https://skillicons.dev/icons?i=github" width="46" alt="GitHub"/><br><sub><b>GitHub</b></sub></td>
 <td align="center"><img src="https://skillicons.dev/icons?i=ubuntu" width="46" alt="Ubuntu"/><br><sub><b>Ubuntu</b></sub></td>
 </tr>
