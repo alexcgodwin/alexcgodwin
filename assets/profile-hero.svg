@@ -1,0 +1,47 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0B1E34"/>
+      <stop offset="1" stop-color="#0A2A4A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="250" x2="1010" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#47A7FF"/>
+      <stop offset="1" stop-color="#75E0FF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <g opacity="0.10" stroke="#7FD3FF">
+    <path d="M0 64H1200M0 128H1200M0 192H1200M0 256H1200"/>
+    <path d="M100 0V320M200 0V320M300 0V320M400 0V320M500 0V320M600 0V320M700 0V320M800 0V320M900 0V320M1000 0V320M1100 0V320"/>
+  </g>
+  <rect x="56" y="42" width="112" height="30" rx="15" fill="#123B63" stroke="#2D79B6"/>
+  <circle cx="77" cy="57" r="5" fill="#4FE0A3"/>
+  <text x="91" y="62" fill="#A9D9FF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">ENGINEERING</text>
+  <text x="56" y="132" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700">Alex C. Godwin</text>
+  <text x="56" y="176" fill="#86CFFF" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Cloud DevOps Engineer</text>
+  <text x="56" y="214" fill="#C9D7E5" font-family="Segoe UI, Arial, sans-serif" font-size="17">AWS   |   Azure   |   Kubernetes   |   Terraform   |   GitOps   |   SRE</text>
+  <text x="56" y="250" fill="#8DA4B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Production cloud platforms, secure delivery systems, observability and reliability engineering</text>
+
+  <g transform="translate(724 52)">
+    <rect x="0" y="0" width="420" height="216" rx="18" fill="#081725" stroke="#1D496C"/>
+    <text x="24" y="32" fill="#7DBEEB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">PLATFORM DELIVERY FLOW</text>
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">
+      <rect x="24" y="68" width="64" height="46" rx="10" fill="#102A43" stroke="#2C6C9C"/><text x="56" y="96" fill="#DDEEFF">GIT</text>
+      <rect x="118" y="68" width="64" height="46" rx="10" fill="#102A43" stroke="#2C6C9C"/><text x="150" y="96" fill="#DDEEFF">CI/CD</text>
+      <rect x="212" y="68" width="64" height="46" rx="10" fill="#102A43" stroke="#2C6C9C"/><text x="244" y="96" fill="#DDEEFF">IaC</text>
+      <rect x="306" y="68" width="88" height="46" rx="10" fill="#102A43" stroke="#2C6C9C"/><text x="350" y="96" fill="#DDEEFF">K8s</text>
+    </g>
+    <path d="M88 91H118M182 91H212M276 91H306" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="103" cy="91" r="3" fill="#76D8FF" filter="url(#glow)"/>
+    <circle cx="197" cy="91" r="3" fill="#76D8FF" filter="url(#glow)"/>
+    <circle cx="291" cy="91" r="3" fill="#76D8FF" filter="url(#glow)"/>
+    <rect x="24" y="148" width="370" height="44" rx="10" fill="#0C2237" stroke="#1A4568"/>
+    <text x="42" y="175" fill="#71D7B2" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">OBSERVABILITY</text>
+    <text x="176" y="175" fill="#9BB4C8" font-family="Segoe UI, Arial, sans-serif" font-size="12">metrics   |   logs   |   alerts   |   incident response</text>
+  </g>
+</svg>
