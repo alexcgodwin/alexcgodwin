@@ -27,21 +27,83 @@
   <text x="56" y="214" fill="#C9D7E5" font-family="Segoe UI, Arial, sans-serif" font-size="17">AWS   |   Azure   |   Kubernetes   |   Terraform   |   GitOps   |   SRE</text>
   <text x="56" y="250" fill="#8DA4B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Production cloud platforms, secure delivery systems, observability and reliability engineering</text>
 
+
   <g transform="translate(724 52)">
-    <rect x="0" y="0" width="420" height="216" rx="18" fill="#081725" stroke="#1D496C"/>
+    <rect x="0" y="0" width="420" height="216" rx="18" fill="#081725" stroke="#1D496C">
+      <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite"/>
+    </rect>
     <text x="24" y="32" fill="#7DBEEB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">PLATFORM DELIVERY FLOW</text>
-    <g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">
-      <rect x="24" y="68" width="64" height="46" rx="10" fill="#102A43" stroke="#2C6C9C"/><text x="56" y="96" fill="#DDEEFF">GIT</text>
-      <rect x="118" y="68" width="64" height="46" rx="10" fill="#102A43" stroke="#2C6C9C"/><text x="150" y="96" fill="#DDEEFF">CI/CD</text>
-      <rect x="212" y="68" width="64" height="46" rx="10" fill="#102A43" stroke="#2C6C9C"/><text x="244" y="96" fill="#DDEEFF">IaC</text>
-      <rect x="306" y="68" width="88" height="46" rx="10" fill="#102A43" stroke="#2C6C9C"/><text x="350" y="96" fill="#DDEEFF">K8s</text>
+
+    <g transform="translate(320 18)">
+      <circle cx="0" cy="0" r="4" fill="#4FE0A3" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="3;5;3" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="11" y="4" fill="#71D7B2" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700">LIVE</text>
     </g>
+
+    <!-- Live pipeline trace sits behind the stage cards and is visible between them. -->
+    <path d="M88 91H306" stroke="#183D59" stroke-width="3" stroke-linecap="round"/>
+    <circle r="4" fill="#7BE2FF" filter="url(#glow)">
+      <animateMotion path="M88 91 H306" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1" dur="5.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.5" fill="#55E2B1" filter="url(#glow)">
+      <animateMotion path="M88 91 H306" dur="5.2s" begin="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.08;0.92;1" dur="5.2s" begin="2.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">
+      <g>
+        <rect x="24" y="68" width="64" height="46" rx="10" fill="#102A43" stroke="#2C6C9C">
+          <animate attributeName="stroke" values="#2C6C9C;#6DE1FF;#2C6C9C;#2C6C9C" keyTimes="0;0.08;0.17;1" dur="8s" repeatCount="indefinite"/>
+          <animate attributeName="fill" values="#102A43;#123752;#102A43;#102A43" keyTimes="0;0.08;0.17;1" dur="8s" repeatCount="indefinite"/>
+        </rect>
+        <text x="56" y="96" fill="#DDEEFF">GIT</text>
+      </g>
+      <g>
+        <rect x="118" y="68" width="64" height="46" rx="10" fill="#102A43" stroke="#2C6C9C">
+          <animate attributeName="stroke" values="#2C6C9C;#2C6C9C;#6DE1FF;#2C6C9C;#2C6C9C" keyTimes="0;0.20;0.29;0.38;1" dur="8s" repeatCount="indefinite"/>
+          <animate attributeName="fill" values="#102A43;#102A43;#123752;#102A43;#102A43" keyTimes="0;0.20;0.29;0.38;1" dur="8s" repeatCount="indefinite"/>
+        </rect>
+        <text x="150" y="96" fill="#DDEEFF">CI/CD</text>
+      </g>
+      <g>
+        <rect x="212" y="68" width="64" height="46" rx="10" fill="#102A43" stroke="#2C6C9C">
+          <animate attributeName="stroke" values="#2C6C9C;#2C6C9C;#6DE1FF;#2C6C9C;#2C6C9C" keyTimes="0;0.45;0.54;0.63;1" dur="8s" repeatCount="indefinite"/>
+          <animate attributeName="fill" values="#102A43;#102A43;#123752;#102A43;#102A43" keyTimes="0;0.45;0.54;0.63;1" dur="8s" repeatCount="indefinite"/>
+        </rect>
+        <text x="244" y="96" fill="#DDEEFF">IaC</text>
+      </g>
+      <g>
+        <rect x="306" y="68" width="88" height="46" rx="10" fill="#102A43" stroke="#2C6C9C">
+          <animate attributeName="stroke" values="#2C6C9C;#2C6C9C;#6DE1FF;#2C6C9C" keyTimes="0;0.70;0.81;1" dur="8s" repeatCount="indefinite"/>
+          <animate attributeName="fill" values="#102A43;#102A43;#123752;#102A43" keyTimes="0;0.70;0.81;1" dur="8s" repeatCount="indefinite"/>
+        </rect>
+        <text x="350" y="96" fill="#DDEEFF">K8s</text>
+      </g>
+    </g>
+
+    <!-- Fixed connectors plus live signal markers. -->
     <path d="M88 91H118M182 91H212M276 91H306" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="103" cy="91" r="3" fill="#76D8FF" filter="url(#glow)"/>
-    <circle cx="197" cy="91" r="3" fill="#76D8FF" filter="url(#glow)"/>
-    <circle cx="291" cy="91" r="3" fill="#76D8FF" filter="url(#glow)"/>
-    <rect x="24" y="148" width="370" height="44" rx="10" fill="#0C2237" stroke="#1A4568"/>
-    <text x="42" y="175" fill="#71D7B2" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">OBSERVABILITY</text>
+    <g fill="#76D8FF" filter="url(#glow)">
+      <circle cx="103" cy="91" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="197" cy="91" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="291" cy="91" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" begin="1.2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <rect x="24" y="148" width="370" height="44" rx="10" fill="#0C2237" stroke="#1A4568">
+      <animate attributeName="stroke" values="#1A4568;#3A8B88;#1A4568" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="42" cy="170" r="3.5" fill="#55E2B1" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="53" y="175" fill="#71D7B2" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">OBSERVABILITY</text>
     <text x="176" y="175" fill="#9BB4C8" font-family="Segoe UI, Arial, sans-serif" font-size="12">metrics   |   logs   |   alerts   |   incident response</text>
+    <path d="M34 185H384" stroke="#173B55" stroke-width="2" stroke-linecap="round"/>
+    <circle cy="185" r="2.6" fill="#55E2B1" filter="url(#glow)">
+      <animate attributeName="cx" values="34;384" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
   </g>
 </svg>
