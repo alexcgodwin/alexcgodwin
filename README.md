@@ -36,6 +36,16 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 </tr>
 </table>
 
+## Professional certification
+
+<p align="center">
+  <img src="./assets/aws-certification.svg" width="100%" alt="AWS Certified DevOps Engineer - Professional, issued September 2026" />
+</p>
+
+<p align="center">
+  <a href="https://www.credly.com/badges/7fcbe698-44e1-4e94-bc7e-c058bfe89229"><b>Verify AWS credential on Credly</b></a>
+</p>
+
 ## Technology stack
 
 <p align="center">
