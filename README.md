@@ -44,77 +44,30 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 
 ## Selected engineering work
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p align="center">
+  <img src="./assets/engineering-work.svg" width="100%" alt="Selected engineering projects across Azure, GitOps, AWS, Kubernetes, CI/CD and operations" />
+</p>
 
-### [Azure Enterprise Landing Zone](https://github.com/alexcgodwin/azure-enterprise-landing-zone)
-**Azure ? Terraform ? AKS ? Identity ? Governance ? Observability**
-
-Production-oriented application landing zone with network separation, managed identity, policy, monitoring and secure delivery patterns.
-
-</td>
-<td width="50%" valign="top">
-
-### [Cloud Platform GitOps](https://github.com/alexcgodwin/cloud-platform-gitops)
-**Kubernetes ? Argo CD ? Kustomize ? GitOps ? Environment Promotion**
-
-Declarative application delivery across development, staging and production with controlled promotion and repeatable deployment state.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Terraform AWS Platform](https://github.com/OpsChugex/terraform-aws-platform)
-**AWS ? Terraform ? Networking ? IAM ? Reusable Infrastructure**
-
-Reusable AWS platform reference focused on infrastructure consistency, versioned change and production-ready cloud foundations.
-
-</td>
-<td width="50%" valign="top">
-
-### [Kubernetes Platform](https://github.com/OpsChugex/kubernetes-platform)
-**Kubernetes ? Workloads ? Policy ? Operations ? Reliability**
-
-Platform reference for workload delivery, operational controls, health, scaling and production-oriented Kubernetes practices.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference)
-**Build ? Test ? Scan ? Deploy ? Verify**
-
-A secure delivery reference that treats validation, artifact integrity and post-deployment verification as part of the release path.
-
-</td>
-<td width="50%" valign="top">
-
-### [Operational Evidence Demo](https://github.com/OpsChugex/operational-evidence-demo)
-**Incident Response ? Evidence ? Validation ? Operations**
-
-Evidence-driven incident workflow showing how operational claims connect to artifacts, checks and repeatable validation.
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/alexcgodwin/azure-enterprise-landing-zone">Azure Landing Zone</a> &nbsp;|&nbsp;
+  <a href="https://github.com/alexcgodwin/cloud-platform-gitops">Cloud Platform GitOps</a> &nbsp;|&nbsp;
+  <a href="https://github.com/OpsChugex/terraform-aws-platform">Terraform AWS Platform</a> &nbsp;|&nbsp;
+  <a href="https://github.com/OpsChugex/kubernetes-platform">Kubernetes Platform</a> &nbsp;|&nbsp;
+  <a href="https://github.com/OpsChugex/secure-cicd-reference">Secure CI/CD</a> &nbsp;|&nbsp;
+  <a href="https://github.com/OpsChugex/operational-evidence-demo">Operational Evidence</a>
+</p>
 
 ## Engineering operating model
 
-```text
-PLAN -> DESIGN -> PROVISION -> BUILD -> TEST -> SCAN -> DEPLOY -> VERIFY -> OBSERVE -> IMPROVE
-          |          |          |       |       |         |         |          |
-       Architecture  IaC      CI/CD   Quality  Security  GitOps   Health    SRE / RCA
-```
+<p align="center">
+  <img src="./assets/operating-model.svg" width="100%" alt="Engineering operating model from planning through design, infrastructure, delivery, verification, observability and improvement" />
+</p>
 
 - Infrastructure and delivery changes are version-controlled and reviewable.
-- Environments should be reproducible from code, not dependent on manual setup.
-- Security controls belong inside the delivery path.
-- Production deployments need health checks, rollback paths and measurable verification.
-- Observability is part of platform design, not an afterthought.
-- Engineering claims should connect to evidence, artifacts and validation.
+- Environments are reproducible from code rather than dependent on manual setup.
+- Security controls are built into the delivery path.
+- Production deployments include health checks, rollback paths and measurable verification.
+- Observability is part of platform design, with operational claims tied to evidence and validation.
 
 ## Connect
 
