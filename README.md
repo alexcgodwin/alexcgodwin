@@ -25,7 +25,6 @@ AWS and Azure foundations, networking, identity, multi-environment design, EKS/A
 
 ### Delivery Engineering
 Terraform, Terragrunt, CloudFormation, Jenkins, GitHub Actions, GitLab CI/CD, Argo CD and rollback-ready delivery.
-
 </td>
 <td width="33%" valign="top">
 
@@ -55,17 +54,17 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 ## Selected engineering work
 
 <p align="center">
-  <img src="./assets/engineering-work.svg" width="100%" alt="Selected engineering projects across Azure, GitOps, AWS, Kubernetes, CI/CD and operations" />
+  <img src="./assets/engineering-work.svg" width="100%" alt="Four completed portfolio projects: Azure landing zone, developer platform, disaster recovery platform and serverless platform" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/alexcgodwin/azure-enterprise-landing-zone">Azure Landing Zone</a> &nbsp;|&nbsp;
-  <a href="https://github.com/alexcgodwin/cloud-platform-gitops">Cloud Platform GitOps</a> &nbsp;|&nbsp;
-  <a href="https://github.com/OpsChugex/terraform-aws-platform">Terraform AWS Platform</a> &nbsp;|&nbsp;
-  <a href="https://github.com/OpsChugex/kubernetes-platform">Kubernetes Platform</a> &nbsp;|&nbsp;
-  <a href="https://github.com/OpsChugex/secure-cicd-reference">Secure CI/CD</a> &nbsp;|&nbsp;
-  <a href="https://github.com/OpsChugex/operational-evidence-demo">Operational Evidence</a>
-</p>
+<table>
+<tr>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/azure-enterprise-landing-zone">Azure Enterprise Landing Zone</a></b><br>Private AKS landing zone validated live, documented with evidence and destroyed through Terraform.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/internal-developer-platform">Internal Developer Platform</a></b><br>Golden-path Kubernetes platform pattern with namespace policy, guardrails and repeatable delivery.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/multi-region-disaster-recovery-platform">Multi-Region DR Platform</a></b><br>Recovery-oriented architecture with RTO/RPO targets, failover runbook and validation notes.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/event-driven-serverless-platform">Event-Driven Serverless Platform</a></b><br>Low-cost asynchronous processing pattern with queue, function, audit log and failure handling.</td>
+</tr>
+</table>
 
 ## Engineering operating model
 
@@ -78,7 +77,6 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 - Security controls are built into the delivery path.
 - Production deployments include health checks, rollback paths and measurable verification.
 - Observability is part of platform design, with operational claims tied to evidence and validation.
-
 ## Connect
 
 <table>
