@@ -24,9 +24,9 @@
 <rect x="40" y="122" width="540" height="122" rx="14" fill="url(#card)" stroke="#23577E" filter="url(#soft)"/>
 <circle cx="78" cy="160" r="18" fill="#102A43" stroke="#2D6D99"/>
 <text x="78" y="166" text-anchor="middle" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">01</text>
-<text x="112" y="146" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">AZURE | TERRAFORM | AKS | ACR | KEY VAULT</text>
+<text x="112" y="146" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">AZURE | TERRAFORM | AKS | KEY VAULT</text>
 <text x="112" y="173" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Azure Enterprise Landing Zone</text>
-<text x="112" y="198" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="112" dy="0">Private AKS landing zone validated live and documented with evidence.</tspan><tspan x="112" dy="18">Destroyed through Terraform after validation to control cost.</tspan></text>
+<text x="112" y="198" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="112" dy="0">Private AKS landing zone validated live.</tspan><tspan x="112" dy="18">Evidence captured, then destroyed with Terraform.</tspan></text>
 
 <rect x="620" y="122" width="540" height="122" rx="14" fill="url(#card)" stroke="#23577E" filter="url(#soft)"/>
 <circle cx="658" cy="160" r="18" fill="#102A43" stroke="#2D6D99"/>
@@ -37,9 +37,9 @@
 <rect x="40" y="270" width="540" height="122" rx="14" fill="url(#card)" stroke="#23577E" filter="url(#soft)"/>
 <circle cx="78" cy="308" r="18" fill="#102A43" stroke="#2D6D99"/>
 <text x="78" y="314" text-anchor="middle" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">03</text>
-<text x="112" y="294" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">RTO/RPO | FAILOVER RUNBOOK | RECOVERY EVIDENCE</text>
-<text x="112" y="321" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Multi-Region Disaster Recovery Platform</text>
-<text x="112" y="346" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="112" dy="0">Active/passive DR model with recovery workflow.</tspan><tspan x="112" dy="18">Validation notes and operational runbook included.</tspan></text>
+<text x="112" y="294" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">RTO/RPO | FAILOVER | RECOVERY EVIDENCE</text>
+<text x="112" y="321" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700"><tspan x="112" dy="0">Multi-Region Disaster</tspan><tspan x="112" dy="21">Recovery Platform</tspan></text>
+<text x="112" y="368" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="112" dy="0">Active/passive DR model with failover runbook.</tspan><tspan x="112" dy="18">Recovery workflow and validation notes included.</tspan></text>
 
 <rect x="620" y="270" width="540" height="122" rx="14" fill="url(#card)" stroke="#23577E" filter="url(#soft)"/>
 <circle cx="658" cy="308" r="18" fill="#102A43" stroke="#2D6D99"/>
