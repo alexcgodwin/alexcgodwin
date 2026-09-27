@@ -59,14 +59,14 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 
 <table>
 <tr>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/azure-enterprise-landing-zone">Azure Enterprise Landing Zone</a></b><br>AKS landing-zone foundation with Terraform validation, CI checks and cost-controlled deployment notes.</td>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/internal-developer-platform">Internal Developer Platform</a></b><br>Zero-cost validated platform pattern with namespace policies, Kubernetes guardrails and repeatable delivery evidence.</td>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/multi-region-disaster-recovery-platform">Multi-Region DR Platform</a></b><br>Zero-cost validated recovery design with RTO/RPO targets, failover runbook and local evidence notes.</td>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/event-driven-serverless-platform">Event-Driven Serverless Platform</a></b><br>Zero-cost validated event workflow with queue, function handler, audit path and failure handling.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/azure-enterprise-landing-zone">Azure Enterprise Landing Zone</a></b><br>Live-validated AKS landing-zone project with Terraform, CI checks, architecture evidence and cost-controlled operations.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/internal-developer-platform">Internal Developer Platform</a></b><br>Internal platform engineering project with Kubernetes guardrails, namespace policies, golden-path delivery and validation evidence.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/multi-region-disaster-recovery-platform">Multi-Region DR Platform</a></b><br>Disaster recovery engineering project with RTO/RPO targets, failover runbook, recovery workflow and validation evidence.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/event-driven-serverless-platform">Event-Driven Serverless Platform</a></b><br>Event-driven serverless engineering project with queue processing, function handler, audit path and failure handling.</td>
 </tr>
 </table>
 
-Additional projects and experiments live across my repositories; this section highlights four cloud builds with clear architecture, cost-control notes and validation evidence.
+Additional engineering work lives across my repositories; this section highlights four cloud projects with architecture, implementation, validation evidence and cost-control discipline.
 
 ### Additional engineering repositories
 

@@ -26,29 +26,29 @@
 <text x="78" y="166" text-anchor="middle" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">01</text>
 <text x="112" y="146" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">AZURE | TERRAFORM | AKS | KEY VAULT</text>
 <text x="112" y="173" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Azure Enterprise Landing Zone</text>
-<text x="112" y="198" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="112" dy="0">AKS landing-zone foundation validated locally.</tspan><tspan x="112" dy="18">Terraform, CI checks and cost-control notes.</tspan></text>
+<text x="112" y="198" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="112" dy="0">Live-validated AKS landing-zone project.</tspan><tspan x="112" dy="18">Terraform, CI checks and architecture evidence.</tspan></text>
 
 <rect x="620" y="122" width="540" height="122" rx="14" fill="url(#card)" stroke="#23577E" filter="url(#soft)"/>
 <circle cx="658" cy="160" r="18" fill="#102A43" stroke="#2D6D99"/>
 <text x="658" y="166" text-anchor="middle" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">02</text>
 <text x="692" y="146" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">KUBERNETES | TERRAFORM | GOLDEN PATH</text>
 <text x="692" y="173" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Internal Developer Platform</text>
-<text x="692" y="198" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="692" dy="0">Zero-cost platform pattern for app workspaces.</tspan><tspan x="692" dy="18">Kubernetes guardrails and validation evidence.</tspan></text>
+<text x="692" y="198" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="692" dy="0">Internal platform for application workspaces.</tspan><tspan x="692" dy="18">Kubernetes guardrails and delivery evidence.</tspan></text>
 <rect x="40" y="270" width="540" height="122" rx="14" fill="url(#card)" stroke="#23577E" filter="url(#soft)"/>
 <circle cx="78" cy="308" r="18" fill="#102A43" stroke="#2D6D99"/>
 <text x="78" y="314" text-anchor="middle" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">03</text>
 <text x="112" y="294" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">RTO/RPO | FAILOVER | RECOVERY EVIDENCE</text>
 <text x="112" y="321" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700"><tspan x="112" dy="0">Multi-Region Disaster</tspan><tspan x="112" dy="21">Recovery Platform</tspan></text>
-<text x="112" y="368" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="112" dy="0">Zero-cost DR design with failover runbook.</tspan><tspan x="112" dy="18">RTO/RPO and local validation notes included.</tspan></text>
+<text x="112" y="368" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="112" dy="0">DR engineering with failover runbook.</tspan><tspan x="112" dy="18">RTO/RPO and recovery evidence included.</tspan></text>
 
 <rect x="620" y="270" width="540" height="122" rx="14" fill="url(#card)" stroke="#23577E" filter="url(#soft)"/>
 <circle cx="658" cy="308" r="18" fill="#102A43" stroke="#2D6D99"/>
 <text x="658" y="314" text-anchor="middle" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">04</text>
 <text x="692" y="294" fill="#75D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">QUEUE | FUNCTION | STORAGE | AUDIT LOG</text>
 <text x="692" y="321" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Event-Driven Serverless Platform</text>
-<text x="692" y="346" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="692" dy="0">Zero-cost async workload pattern with retry.</tspan><tspan x="692" dy="18">Audit and event-processing design documented.</tspan></text>
+<text x="692" y="346" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13"><tspan x="692" dy="0">Event workflow with async retry handling.</tspan><tspan x="692" dy="18">Audit and event-processing design documented.</tspan></text>
 <path d="M300 244V270" stroke="#2D6D99" stroke-width="2" stroke-dasharray="5 6" opacity="0.8"/>
 <path d="M900 244V270" stroke="#2D6D99" stroke-width="2" stroke-dasharray="5 6" opacity="0.8"/>
-<text x="40" y="425" fill="#607B91" font-family="Segoe UI, Arial, sans-serif" font-size="12">Four portfolio builds with validation notes, operating evidence and cost-control documentation.</text>
+<text x="40" y="425" fill="#607B91" font-family="Segoe UI, Arial, sans-serif" font-size="12">Four cloud engineering projects with implementation, validation evidence and cost-control discipline.</text>
 <text x="1160" y="425" text-anchor="end" fill="#607B91" font-family="Segoe UI, Arial, sans-serif" font-size="12">4 featured cloud projects</text>
 </svg>
