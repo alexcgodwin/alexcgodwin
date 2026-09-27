@@ -59,14 +59,14 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 
 <table>
 <tr>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/azure-enterprise-landing-zone">Azure Enterprise Landing Zone</a></b><br>Private AKS landing zone validated live, documented with evidence and then destroyed through Terraform.</td>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/internal-developer-platform">Internal Developer Platform</a></b><br>Golden-path Kubernetes platform pattern with namespace policies, guardrails and repeatable delivery.</td>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/multi-region-disaster-recovery-platform">Multi-Region DR Platform</a></b><br>Recovery-oriented architecture with RTO/RPO targets, a failover runbook and validation notes.</td>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/event-driven-serverless-platform">Event-Driven Serverless Platform</a></b><br>Low-cost asynchronous processing pattern with a queue, function, audit log and failure handling.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/azure-enterprise-landing-zone">Azure Enterprise Landing Zone</a></b><br>AKS landing-zone foundation with Terraform validation, CI checks and cost-controlled deployment notes.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/internal-developer-platform">Internal Developer Platform</a></b><br>Zero-cost validated platform pattern with namespace policies, Kubernetes guardrails and repeatable delivery evidence.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/multi-region-disaster-recovery-platform">Multi-Region DR Platform</a></b><br>Zero-cost validated recovery design with RTO/RPO targets, failover runbook and local evidence notes.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/event-driven-serverless-platform">Event-Driven Serverless Platform</a></b><br>Zero-cost validated event workflow with queue, function handler, audit path and failure handling.</td>
 </tr>
 </table>
 
-Additional projects and experiments live across my repositories; this section highlights four cloud builds with the clearest architecture and validation evidence.
+Additional projects and experiments live across my repositories; this section highlights four cloud builds with clear architecture, cost-control notes and validation evidence.
 
 ### Additional engineering repositories
 
