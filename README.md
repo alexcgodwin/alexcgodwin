@@ -51,20 +51,22 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
   <img src="./assets/tech-stack.svg" width="100%" alt="Technology stack: cloud, delivery, automation, observability and runtime tooling" />
 </p>
 
-## Selected engineering work
+## Featured engineering work
 
 <p align="center">
-  <img src="./assets/engineering-work.svg" width="100%" alt="Four completed portfolio projects: Azure landing zone, developer platform, disaster recovery platform and serverless platform" />
+  <img src="./assets/engineering-work.svg" width="100%" alt="Featured cloud engineering work: Azure landing zone, developer platform, disaster recovery platform and serverless platform" />
 </p>
 
 <table>
 <tr>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/azure-enterprise-landing-zone">Azure Enterprise Landing Zone</a></b><br>Private AKS landing zone validated live, documented with evidence and destroyed through Terraform.</td>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/internal-developer-platform">Internal Developer Platform</a></b><br>Golden-path Kubernetes platform pattern with namespace policy, guardrails and repeatable delivery.</td>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/multi-region-disaster-recovery-platform">Multi-Region DR Platform</a></b><br>Recovery-oriented architecture with RTO/RPO targets, failover runbook and validation notes.</td>
-<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/event-driven-serverless-platform">Event-Driven Serverless Platform</a></b><br>Low-cost asynchronous processing pattern with queue, function, audit log and failure handling.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/azure-enterprise-landing-zone">Azure Enterprise Landing Zone</a></b><br>Private AKS landing zone validated live, documented with evidence and then destroyed through Terraform.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/internal-developer-platform">Internal Developer Platform</a></b><br>Golden-path Kubernetes platform pattern with namespace policies, guardrails and repeatable delivery.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/multi-region-disaster-recovery-platform">Multi-Region DR Platform</a></b><br>Recovery-oriented architecture with RTO/RPO targets, a failover runbook and validation notes.</td>
+<td width="25%" valign="top"><b><a href="https://github.com/alexcgodwin/event-driven-serverless-platform">Event-Driven Serverless Platform</a></b><br>Low-cost asynchronous processing pattern with a queue, function, audit log and failure handling.</td>
 </tr>
 </table>
+
+Additional projects and experiments live across my repositories; this section highlights four cloud builds with the clearest architecture and validation evidence.
 
 ## Engineering operating model
 
@@ -77,6 +79,7 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 - Security controls are built into the delivery path.
 - Production deployments include health checks, rollback paths and measurable verification.
 - Observability is part of platform design, with operational claims tied to evidence and validation.
+
 ## Connect
 
 <table>

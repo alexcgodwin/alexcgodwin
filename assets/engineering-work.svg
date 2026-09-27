@@ -18,8 +18,8 @@
   <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200M0 360H1200"/>
   <path d="M100 0V430M200 0V430M300 0V430M400 0V430M500 0V430M600 0V430M700 0V430M800 0V430M900 0V430M1000 0V430M1100 0V430"/>
 </g>
-<text x="40" y="48" fill="#83D2FF" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">CLOUD ENGINEERING PORTFOLIO</text>
-<text x="40" y="86" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Selected cloud engineering projects</text>
+<text x="40" y="48" fill="#83D2FF" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">FEATURED CLOUD ENGINEERING WORK</text>
+<text x="40" y="86" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Featured cloud engineering projects</text>
 <text x="1160" y="62" text-anchor="end" fill="#8EA7BC" font-family="Segoe UI, Arial, sans-serif" font-size="13">architecture | delivery | operations | evidence</text>
 <rect x="40" y="122" width="540" height="108" rx="14" fill="url(#card)" stroke="#23577E" filter="url(#soft)"/>
 <circle cx="78" cy="160" r="18" fill="#102A43" stroke="#2D6D99"/>
@@ -49,6 +49,6 @@
 <text x="692" y="331" fill="#AEBFCF" font-family="Segoe UI, Arial, sans-serif" font-size="13">Low-cost asynchronous workload pattern with retry, audit and event-processing design.</text>
 <path d="M300 230V254" stroke="#2D6D99" stroke-width="2" stroke-dasharray="5 6" opacity="0.8"/>
 <path d="M900 230V254" stroke="#2D6D99" stroke-width="2" stroke-dasharray="5 6" opacity="0.8"/>
-<text x="40" y="398" fill="#607B91" font-family="Segoe UI, Arial, sans-serif" font-size="12">Completed with validation notes, operational evidence and cost-control documentation.</text>
-<text x="1160" y="398" text-anchor="end" fill="#607B91" font-family="Segoe UI, Arial, sans-serif" font-size="12">4 completed portfolio projects</text>
+<text x="40" y="398" fill="#607B91" font-family="Segoe UI, Arial, sans-serif" font-size="12">Four completed builds with validation notes, operational evidence and cost-control documentation.</text>
+<text x="1160" y="398" text-anchor="end" fill="#607B91" font-family="Segoe UI, Arial, sans-serif" font-size="12">4 featured cloud projects</text>
 </svg>
