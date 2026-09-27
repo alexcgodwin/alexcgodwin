@@ -68,6 +68,18 @@ Prometheus, Grafana, Loki, CloudWatch, incident response, RCA, least-privilege I
 
 Additional projects and experiments live across my repositories; this section highlights four cloud builds with the clearest architecture and validation evidence.
 
+### Additional engineering repositories
+
+<table>
+<tr>
+<td width="20%" valign="top"><b><a href="https://github.com/alexcgodwin/cloud-platform-infrastructure">Cloud Platform Infrastructure</a></b><br>Terraform foundation for multi-environment AWS and Kubernetes platform provisioning.</td>
+<td width="20%" valign="top"><b><a href="https://github.com/alexcgodwin/cloud-platform-app">Cloud Platform App</a></b><br>Containerized application with tests, security scanning and Jenkins CI.</td>
+<td width="20%" valign="top"><b><a href="https://github.com/alexcgodwin/cloud-platform-gitops">Cloud Platform GitOps</a></b><br>Argo CD and Kustomize delivery configuration for staged Kubernetes releases.</td>
+<td width="20%" valign="top"><b><a href="https://github.com/alexcgodwin/cloud-platform-ansible">Cloud Platform Ansible</a></b><br>Repeatable Linux and NGINX automation with validation and idempotent operations.</td>
+<td width="20%" valign="top"><b><a href="https://github.com/alexcgodwin/jenkins-ci-pipeline">Jenkins CI Pipeline</a></b><br>CI pipeline pattern for container builds, GitOps delivery and Kubernetes deployment.</td>
+</tr>
+</table>
+
 ## Engineering operating model
 
 <p align="center">
