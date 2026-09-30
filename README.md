@@ -80,6 +80,14 @@ Additional engineering work lives across my repositories; this section highlight
 </tr>
 </table>
 
+## AI engineering tooling
+
+<table>
+<tr>
+<td width="100%" valign="top"><b><a href="https://github.com/alexcgodwin/cloud-devops-mcp-server">Cloud DevOps MCP Server</a></b><br>Model Context Protocol server for infrastructure risk review, incident runbooks, CI/CD readiness and SLO error budget analysis.</td>
+</tr>
+</table>
+
 ## Engineering operating model
 
 <p align="center">
