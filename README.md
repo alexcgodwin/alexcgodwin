@@ -5,7 +5,6 @@
 <p align="center">
   <a href="https://alexemekagodwin.com"><img src="https://img.shields.io/badge/Portfolio-0B5CAD?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/alexcgodwin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/OpsChugex"><img src="https://img.shields.io/badge/OpsChugex-111827?style=for-the-badge&logo=github&logoColor=white" alt="OpsChugex Engineering" /></a>
   <a href="mailto:alex.godwin@alexemekagodwin.com"><img src="https://img.shields.io/badge/Email-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -106,7 +105,6 @@ Additional engineering work lives across my repositories; this section highlight
 <tr>
 <td><b>Portfolio</b><br><a href="https://alexemekagodwin.com">alexemekagodwin.com</a></td>
 <td><b>LinkedIn</b><br><a href="https://www.linkedin.com/in/alexcgodwin">linkedin.com/in/alexcgodwin</a></td>
-<td><b>Engineering Org</b><br><a href="https://github.com/OpsChugex">github.com/OpsChugex</a></td>
 <td><b>Email</b><br><a href="mailto:alex.godwin@alexemekagodwin.com">alex.godwin@alexemekagodwin.com</a></td>
 </tr>
 </table>
