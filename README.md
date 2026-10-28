@@ -108,3 +108,16 @@ Additional engineering work lives across my repositories; this section highlight
 <td><b>Email</b><br><a href="mailto:alex.godwin@alexemekagodwin.com">alex.godwin@alexemekagodwin.com</a></td>
 </tr>
 </table>
+
+## Reviewable engineering evidence
+
+| Discipline | Technical implementation | Operational focus |
+| --- | --- | --- |
+| Cloud & identity | [Azure landing zone](https://github.com/alexcgodwin/azure-enterprise-landing-zone), [GCP foundations](https://github.com/alexcgodwin/gcp-enterprise-landing-zone) | Terraform, networking, access policies and validation |
+| Delivery & GitOps | [Jenkins CI](https://github.com/alexcgodwin/jenkins-ci-pipeline), [GitOps release definitions](https://github.com/alexcgodwin/cloud-app-gitops) | Reviewed changes, environment boundaries and rollback |
+| OS automation | [Ansible Linux platform](https://github.com/alexcgodwin/cloud-platform-ansible) | Serial rollout, config verification and idempotency |
+| Reliability engineering | [Disaster recovery](https://github.com/alexcgodwin/multi-region-disaster-recovery-platform), [event-driven platform](https://github.com/alexcgodwin/event-driven-serverless-platform) | Data durability, recovery drills, retries and failure isolation |
+| Terraform internals | [State recovery](https://github.com/alexcgodwin/terraform-enterprise-state-recovery-lab), [module testing](https://github.com/alexcgodwin/terraform-module-validation-testing) | Safe state changes, native tests, CI and failure handling |
+| AI operations | [AWS AIOps and SSM](https://github.com/alexcgodwin/aws-aiops-ssm-automation-platform), [Cloud DevOps MCP](https://github.com/alexcgodwin/cloud-devops-mcp-server) | Least privilege, evidence-based diagnostics and human approvals |
+
+[How to verify this work](docs/PROJECT_EVIDENCE.md): architecture, security boundaries, unit/integration tests, and the distinction between runnable code and actual cloud deployment.
